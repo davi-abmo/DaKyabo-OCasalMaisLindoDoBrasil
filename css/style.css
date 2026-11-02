@@ -1,0 +1,93 @@
+@import url('https://googleapis.com');
+
+body {
+    background-color: var(--most-color);
+}
+
+h2 {
+    margin-top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: var(--most-color);
+    -webkit-text-stroke: 1px var(--dark-color);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 1em;
+}
+
+hr {
+    background-color: var(--color-second);
+    height: .2em;
+}
+
+figure {
+    padding: 3em;
+    width: 30%;
+    float: left;
+}
+
+figcaption {
+    color: var(--dark-color);
+    text-align: center;
+    font-weight: 900;
+}
+
+img {
+    border:  var(--color-second) solid .5em;
+}
+
+header {
+    text-align: center;
+    padding: .2em;
+    background-color: var(--dark-color);
+    color: var(--most-color);
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: var(--dark-color);
+}
+
+button {
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 1em;
+    text-align: center;
+    width: 4em;
+    cursor: pointer;
+}
+
+#button-anne {
+    background-color: #121513;
+    border: #F0F2F0 solid .1em;
+    color: #F0F2F0;
+}
+
+#button-dean {
+    background-color: #171A20;
+    border: #6F42A3 solid .1em;
+    color: #6F42A3;
+}
+
+#button-helen {
+    background-color: #121213;
+    border: #FFE761 solid .1em;
+    color: #FFE761;
+}
