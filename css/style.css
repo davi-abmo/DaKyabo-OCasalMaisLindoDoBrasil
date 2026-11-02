@@ -1,5 +1,10 @@
 @import url('https://googleapis.com');
 
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-second) var(--dark-color);
+}
+
 body {
     background-color: var(--most-color);
 }
@@ -20,7 +25,7 @@ p {
 
 hr {
     background-color: var(--color-second);
-    height: .2em;
+    height: .3em;
 }
 
 figure {
@@ -36,7 +41,9 @@ figcaption {
 }
 
 img {
-    border:  var(--color-second) solid .5em;
+    min-width: 5em;
+    width: 200%;
+    border: var(--color-second) solid .5em;
 }
 
 header {

@@ -2,7 +2,7 @@ function switch_palette(option) {
     switch (option) {
         case 1:
             document.documentElement.style.setProperty('--most-color', '#F0F2F0');
-            document.documentElement.style.setProperty('--color-second', '#4A4F4B');
+            document.documentElement.style.setProperty('--color-second', '#646664');
             document.documentElement.style.setProperty('--dark-color', '#121513');
             break;
         case 2:
