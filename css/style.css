@@ -42,7 +42,8 @@ figcaption {
 
 img {
     min-width: 5em;
-    width: 200%;
+    width: 100%;
+    height: auto;
     border: var(--color-second) solid .5em;
 }
 
